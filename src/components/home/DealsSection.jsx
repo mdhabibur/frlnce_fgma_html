@@ -7,7 +7,7 @@ const DealsSection = () => {
     <div className="hero-content max-w-[100%] w-[100%] p-0 flex-col sm:flex-row gap-4 ">
 
 
-        <div className=" flex flex-col items-start justify-start sm:w-1/2">
+        <div className=" flex flex-col items-start justify-start sm:w-1/2 mr-6">
             <h3 className="my_h2">We 
                 <span className="gradient-text font-bold px-2">
                 Work Hard
@@ -32,7 +32,7 @@ const DealsSection = () => {
 
         </div>
 
-        <div className=" flex flex-row items-center justify-center sm:w-1/2 px-4">
+        <div className=" flex flex-row items-center justify-center sm:w-1/2">
             <img
                 src={heroImage}
                 className="w-full max-h-80 rounded-lg shadow-2xl"

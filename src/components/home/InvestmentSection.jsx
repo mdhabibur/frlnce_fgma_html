@@ -8,7 +8,7 @@ const InvestmentSection = () => {
 		<div className="hero max-h-full py-6">
 			<div className="hero-content max-w-[100%] w-[100%] p-0  flex-col sm:flex-row gap-4 justify-start items-center">
 
-                <div className=" flex flex-row items-center justify-center sm:w-1/2 ">
+                <div className=" flex flex-row items-center justify-center sm:w-1/2 mr-6">
 					<img
 						src={heroImage}
 						className="w-full max-h-80 rounded-lg shadow-2xl"

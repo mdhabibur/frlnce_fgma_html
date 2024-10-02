@@ -7,7 +7,7 @@ const HeroSection = () => {
 
 			<div className="hero-content max-w-[100%] w-[100%] p-0 flex-col sm:flex-row ">
 
-                <div className="sm:w-1/2 ">
+                <div className="sm:w-1/2  mr-6">
                     <img
                         src={heroImage}
                         className="w-full max-h-80 rounded-lg"
