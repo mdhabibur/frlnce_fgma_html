@@ -4,10 +4,10 @@ import heroImage from '../../assets/images/images_hero_sec.jfif'
 const DealsSection = () => {
   return (
     <div className="hero max-h-full py-6">
-    <div className="hero-content flex-col sm:flex-row gap-4">
+    <div className="hero-content flex-col sm:flex-row gap-4 ">
 
 
-        <div className=" flex flex-col items-start justify-center w-1/2 px-4">
+        <div className=" flex flex-col items-start justify-start w-1/2">
             <h3 className="my_h2">We 
                 <span className="gradient-text font-bold px-2">
                 Work Hard
