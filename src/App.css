@@ -11,7 +11,7 @@
 
 .btn_outline_blue_sky_blue {
   @apply bg-transparent text-white font-bold py-2 px-4 rounded;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   background-image: linear-gradient(#432262, #24212a), linear-gradient(to right, #1e3a8a, #0ea5e9);
   background-origin: border-box;
   background-clip: padding-box, border-box;
