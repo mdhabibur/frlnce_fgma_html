@@ -5,6 +5,7 @@ import ServicesSection from "../components/home/ServicesSection";
 import DealsSection from "../components/home/DealsSection";
 import InvestmentSection from "../components/home/InvestmentSection";
 import StartInvestSection from "../components/home/StartInvestSection";
+import ClientReviewSection from "../components/home/ClientReviewSection";
 
 const Home = () => {
 	return (
@@ -54,6 +55,18 @@ const Home = () => {
 				className="investSection bg-custom-gradient-ltr section-main-layout text-white "
 			>
                 <InvestmentSection />
+				
+			</div>
+
+
+
+			{/*client review sections  */}
+
+			<div
+			id="clientReviewSection"
+			className="clientReviewSection bg-custom-gradient-rtl section-main-layout text-white "
+			>
+                <ClientReviewSection />
 				
 			</div>
 
