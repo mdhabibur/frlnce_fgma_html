@@ -1,4 +1,5 @@
 import React from "react";
+import heroImage from '../../assets/images/images_hero_sec.jfif'
 
 const HeroSection = () => {
 	return (
@@ -7,7 +8,7 @@ const HeroSection = () => {
 
                 <div className=" flex flex-row items-center justify-center w-1/2 px-4">
                     <img
-                        src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                        src={heroImage}
                         className="w-full max-h-80 rounded-lg shadow-2xl"
                     />
 
@@ -15,7 +16,7 @@ const HeroSection = () => {
 
 
 				<div className=" flex flex-col items-start justify-center w-1/2 px-4">
-					<h1 className="text-5xl font-bold">Invest Crypto Now, to 
+					<h1 className="text-5xl font-semibold">Invest Crypto Now, to 
                         <span className="text-blue-700 px-2">
                         Get Rich
                         </span> In the Future</h1>
