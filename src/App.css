@@ -1,34 +1,73 @@
-
-
 /* custom classes  */
 .my_container {
-  @apply max-w-screen-2xl container mx-auto px-2 sm:px-10 md:px-20
+	@apply max-w-screen-2xl container mx-auto px-2 sm:px-10 md:px-20;
 }
 
 .section-main-layout {
-  @apply max-w-screen-2xl container mx-auto px-2 sm:px-10 md:px-20 py-6
+	@apply max-w-screen-2xl container mx-auto px-2 sm:px-10 md:px-20 py-6;
 }
 
 .btn_outline_blue_sky_blue {
-  @apply bg-transparent text-white font-bold py-2 px-4 rounded;
-  border: 2px solid transparent;
-  background-image: linear-gradient(#432262, #24212a), linear-gradient(to right, #1e3a8a, #0ea5e9);
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-
+	@apply bg-transparent text-white font-bold py-2 px-4 rounded;
+	border: 2px solid transparent;
+	background-image: linear-gradient(#432262, #24212a),
+		linear-gradient(to right, #1e3a8a, #0ea5e9);
+	background-origin: border-box;
+	background-clip: padding-box, border-box;
 }
 
 /* custom gradient color  */
 .gradient-text {
-  background-image: linear-gradient(to right, #586ea7, #00aeff); /* Gradient background */
-  -webkit-background-clip: text; /* Clip the background to the text */
-  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+	background-image: linear-gradient(
+		to right,
+		#586ea7,
+		#00aeff
+	); /* Gradient background */
+	-webkit-background-clip: text; /* Clip the background to the text */
+	-webkit-text-fill-color: transparent; /* Make the text color transparent */
 }
 
 .gradient-border {
-  background-image: linear-gradient(#1e3a8a, #0ea5e9); /* Gradient background */
-  background-origin: border-box; /* Ensures the gradient applies to the border area */
-  background-clip: content-box, border-box; /* Clips the gradient to the content and border */
-
+	background-image: linear-gradient(#1e3a8a, #0ea5e9); /* Gradient background */
+	background-origin: border-box; /* Ensures the gradient applies to the border area */
+	background-clip: content-box, border-box; /* Clips the gradient to the content and border */
 }
 
+.my_h2 {
+	@apply text-xl md:text-2xl lg:text-4xl md:leading-snug font-bold;
+}
+
+.my_h3 {
+	@apply text-xl md:text-2xl lg:text-3xl md:leading-tight font-bold;
+}
+
+.my_h4 {
+	@apply text-xs md:text-xl font-bold;
+}
+
+.my_h5 {
+	@apply text-xs md:text-sm font-bold;
+}
+
+.small_card_title {
+	@apply text-sm font-semibold;
+}
+
+.small_card_sub_title {
+	@apply text-xs font-normal;
+}
+
+.small_card_sub_title2 {
+	@apply text-xs font-normal text-black;
+}
+.small_card_des {
+	@apply text-[11px] font-normal;
+}
+
+.active_menu_item {
+	@apply bg-gray-300 font-bold;
+}
+
+.active_link {
+	@apply text-black font-bold;
+}

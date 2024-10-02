@@ -3,7 +3,7 @@ import heroImage from '../../assets/images/images_hero_sec.jfif'
 
 const HeroSection = () => {
 	return (
-		<div className="hero max-h-screen">
+		<div className="hero max-h-full">
 			<div className="hero-content flex-col sm:flex-row gap-4">
 
                 <div className=" flex flex-row items-center justify-center w-1/2 px-4">
@@ -15,11 +15,11 @@ const HeroSection = () => {
                 </div>
 
 
-				<div className=" flex flex-col items-start justify-center w-1/2 px-4">
-					<h1 className="text-5xl font-semibold">Invest Crypto Now, to 
+				<div className="border flex flex-col items-start justify-center w-1/2 px-4">
+					<h3 className="my_h2">Invest Crypto Now, to 
                         <span className="gradient-text font-bold px-2">
                         Get Rich
-                        </span> In the Future</h1>
+                        </span> In the Future</h3>
 					<p className="py-6">
 						Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
 						excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
