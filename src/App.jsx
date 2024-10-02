@@ -7,6 +7,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import NotFound from "./components/navigation/NotFound";
 import Navbar from "./components/navigation/Navbar";
+import Footer from "./components/navigation/Footer";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
 	);
 }
