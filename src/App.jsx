@@ -1,15 +1,22 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import { BrowserRouter , Routes, Route} from 'react-router-dom';
+
 import "./App.css";
+import Home from "./pages/Home";
+import NotFound from "./components/navigation/NotFound";
+import Navbar from "./components/navigation/Navbar";
 
 function App() {
 	return (
-		<div className="flex items-center justify-center h-screen bg-gray-100">
-			<h1 className="text-4xl font-bold text-blue-600">
-				Hello, Vite + Tailwind!
-			</h1>
-		</div>
+    <BrowserRouter>
+      <Navbar  />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
 	);
 }
 
