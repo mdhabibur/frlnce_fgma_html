@@ -28,14 +28,14 @@ const Navbar = () => {
     )
 
 	return (
-		<div className="my_container navbar text-white bg-custom-gradient-rtl border-b-[1px] border-gray-500">
+		<div className="my_container navbar text-black sm:text-white  bg-custom-gradient-rtl border-b-[1px] border-gray-500">
 			
             
             <div className="navbar-start">
 
 
 				<div className="dropdown">
-					<div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+					<div tabIndex={0} role="button" className="btn btn-ghost bg-gray-500 hover:bg-gray-600 lg:hidden ">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							className="h-5 w-5"
@@ -65,15 +65,15 @@ const Navbar = () => {
 
 
 				</div>
-				<a className="btn btn-ghost text-xl">ChipCoins</a>
+				<a className="btn btn-ghost text-xl text-white">ChipCoins</a>
 
 			</div>
 
 
-			<div className="navbar-center hidden lg:flex">
+			<div className="navbar-center  hidden lg:flex">
 
 
-				<ul className="menu menu-horizontal px-1">
+				<ul className="menu menu-horizontal px-1 ">
 
                 {navItems}
 
