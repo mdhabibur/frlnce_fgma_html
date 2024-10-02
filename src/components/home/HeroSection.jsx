@@ -15,7 +15,7 @@ const HeroSection = () => {
                 </div>
 
 
-				<div className="border flex flex-col items-start justify-center w-1/2 px-4">
+				<div className=" flex flex-col items-start justify-center w-1/2 px-4">
 					<h3 className="my_h2">Invest Crypto Now, to 
                         <span className="gradient-text font-bold px-2">
                         Get Rich

@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "../components/home/HeroSection";
 import ExperienceSection from "../components/home/ExperienceSection";
+import ServicesSection from "../components/home/ServicesSection";
 
 const Home = () => {
 	return (
@@ -22,6 +23,19 @@ const Home = () => {
                 <ExperienceSection />
 				
 			</div>
+
+
+           {/* services sections  */}
+			<div
+				id="servicesSection"
+				className="servicesSection bg-custom-gradient-ltr section-main-layout text-white"
+			>
+                <ServicesSection />
+				
+			</div>
+
+
+            
 
 
 
