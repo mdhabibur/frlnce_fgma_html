@@ -3,19 +3,20 @@ import heroImage from '../../assets/images/images_hero_sec.jfif'
 
 const HeroSection = () => {
 	return (
-		<div className="hero max-h-full">
-			<div className="hero-content flex-col sm:flex-row gap-4">
+		<div className="hero max-h-full ">
 
-                <div className=" flex flex-row items-center justify-center w-1/2 px-4">
+			<div className="hero-content max-w-[100%] w-[100%] p-0 flex-col sm:flex-row ">
+
+                <div className="sm:w-1/2 ">
                     <img
                         src={heroImage}
-                        className="w-full max-h-80 rounded-lg shadow-2xl"
+                        className="w-full max-h-80 rounded-lg"
                     />
 
                 </div>
 
 
-				<div className=" flex flex-col items-start justify-center w-1/2 px-4">
+				<div className=" flex flex-col items-start justify-center sm:w-1/2 px-4">
 					<h3 className="my_h2">Invest Crypto Now, to 
                         <span className="gradient-text font-bold px-2">
                         Get Rich

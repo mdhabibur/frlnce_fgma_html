@@ -11,7 +11,7 @@ const Home = () => {
         {/* hero sections  */}
 			<div
 				id="heroSection"
-				className="heroSection bg-custom-gradient-ltr section-main-layout text-white"
+				className="heroSection bg-custom-gradient-ltr section-main-layout text-white "
 			>
                 <HeroSection />
 				
@@ -20,7 +20,7 @@ const Home = () => {
             {/* experience sections  */}
 			<div
 				id="experienceSection"
-				className="experienceSection bg-custom-gradient-rtl section-main-layout text-white"
+				className="experienceSection bg-custom-gradient-rtl section-main-layout text-white "
 			>
                 <ExperienceSection />
 				
@@ -30,7 +30,7 @@ const Home = () => {
            {/* services sections  */}
 			<div
 				id="servicesSection"
-				className="servicesSection bg-custom-gradient-ltr section-main-layout text-white"
+				className="servicesSection bg-custom-gradient-ltr section-main-layout text-white "
 			>
                 <ServicesSection />
 				
@@ -40,7 +40,7 @@ const Home = () => {
            {/* Deals sections  */}
 			<div
 				id="dealsSection"
-				className="dealsSection bg-custom-gradient-rtl section-main-layout text-white"
+				className="dealsSection bg-custom-gradient-rtl section-main-layout text-white "
 			>
                 <DealsSection />
 				
@@ -50,7 +50,7 @@ const Home = () => {
            {/* Investment sections  */}
 			<div
 				id="investSection"
-				className="investSection bg-custom-gradient-ltr section-main-layout text-white"
+				className="investSection bg-custom-gradient-ltr section-main-layout text-white "
 			>
                 <InvestmentSection />
 				

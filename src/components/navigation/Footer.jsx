@@ -6,9 +6,9 @@ import { FaYoutube, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className=" bg-gray-900 text-white p-10">
+    <footer className=" bg-gray-900 text-white py-6">
 
-    <div className=' my_container flex flex-col sm:flex-row justify-between items-center'>
+    <div className='my_container flex flex-col sm:flex-row justify-between items-start '>
 
     <nav className=' flex flex-col gap-1'>
             <h6 className="footer-title">Quick Links</h6>

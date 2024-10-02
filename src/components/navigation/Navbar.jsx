@@ -28,7 +28,8 @@ const Navbar = () => {
     )
 
 	return (
-		<div className="my_container navbar text-black sm:text-white  bg-custom-gradient-rtl border-b-[1px] border-gray-500">
+		<div className=" border-4 navbar text-black sm:text-white  bg-custom-gradient-rtl border-b-[1px] border-gray-500 
+		max-w-screen-2xl container mx-auto px-4 sm:px-10 md:px-20">
 			
             
             <div className="navbar-start">
@@ -65,7 +66,7 @@ const Navbar = () => {
 
 
 				</div>
-				<a className="btn btn-ghost text-xl text-white">ChipCoins</a>
+				<a className="btn btn-ghost text-xl text-white border-2 border-gray-500">ChipCoins</a>
 
 			</div>
 
