@@ -22,13 +22,13 @@ const InvestmentSection = () => {
 						<span className="gradient-text font-bold px-2">Safe Guarding</span>
 						For Crypto investments
 					</h3>
-					<p className="py-5 text-[13px]">
+					<p className="py-5 text-[13px] text-gray-300">
 						Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
 						excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
 						a id nisi.
 					</p>
 
-                    <div className=" flex flex-col gap-3 items-center">
+                    <div className=" flex flex-col gap-3 items-center text-gray-300">
                         {/* row 1  */}
                         <div className=" flex flex-col sm:flex-row gap-3 items-center justify-between">
 

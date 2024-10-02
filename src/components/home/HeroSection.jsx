@@ -16,12 +16,12 @@ const HeroSection = () => {
                 </div>
 
 
-				<div className=" flex flex-col items-start justify-center sm:w-1/2 px-4">
+				<div className=" flex flex-col items-start justify-center sm:w-1/2 px-4 ">
 					<h3 className="my_h2">Invest Crypto Now, to 
                         <span className="gradient-text font-bold px-2">
                         Get Rich
                         </span> In the Future</h3>
-					<p className="py-6">
+					<p className="py-6 text-gray-300">
 						Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
 						excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
 						a id nisi.

@@ -7,7 +7,7 @@ const DealsSection = () => {
     <div className="hero-content max-w-[100%] w-[100%] p-0 flex-col sm:flex-row gap-4 ">
 
 
-        <div className=" flex flex-col items-start justify-start sm:w-1/2 mr-6">
+        <div className=" flex flex-col items-start justify-start sm:w-1/2 mr-6 text-gray-300">
             <h3 className="my_h2">We 
                 <span className="gradient-text font-bold px-2">
                 Work Hard

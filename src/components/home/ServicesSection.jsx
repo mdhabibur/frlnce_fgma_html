@@ -17,7 +17,7 @@ const ServicesSection = () => {
 
                   <p className="sm:w-[40%] text-sm">Lorem ipsum dolor sit amet conse. Neque ullam Non, deleniti!</p>
 
-                  <div className=" flex flex-row gap-5 items-center justify-start">
+                  <div className=" flex flex-row gap-5 items-center justify-start cursor-pointer">
 
                   <BsArrowLeftCircle  className="w-7 h-7" />
                   <BsArrowRightCircle className="w-7 h-7 bg-custom-button-bg-gradient rounded-full" />
