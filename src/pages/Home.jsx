@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "../components/home/HeroSection";
 import ExperienceSection from "../components/home/ExperienceSection";
 import ServicesSection from "../components/home/ServicesSection";
+import DealsSection from "../components/home/DealsSection";
 
 const Home = () => {
 	return (
@@ -31,6 +32,16 @@ const Home = () => {
 				className="servicesSection bg-custom-gradient-ltr section-main-layout text-white"
 			>
                 <ServicesSection />
+				
+			</div>
+
+
+           {/* Deals sections  */}
+			<div
+				id="dealsSection"
+				className="dealsSection bg-custom-gradient-rtl section-main-layout text-white"
+			>
+                <DealsSection />
 				
 			</div>
 
