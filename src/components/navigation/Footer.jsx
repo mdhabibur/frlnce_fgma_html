@@ -6,7 +6,7 @@ import { FaYoutube, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className=" bg-gray-900 text-white py-6">
+    <footer className=" bg-gray-900 text-white py-3 pt-12">
 
     <div className='my_container flex flex-col sm:flex-row justify-between items-start '>
 
@@ -51,7 +51,7 @@ const Footer = () => {
 
     </div>
 
-
+      <p className='border-t-[1px] border-gray-600 mt-10 pt-3  text-center text-[10px]'>&copy; 2024 All rights reserved.</p>
 
     </footer>
   )
