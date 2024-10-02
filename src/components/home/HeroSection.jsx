@@ -3,7 +3,7 @@ import heroImage from '../../assets/images/images_hero_sec.jfif'
 
 const HeroSection = () => {
 	return (
-		<div className="hero max-h-screen border">
+		<div className="hero max-h-screen">
 			<div className="hero-content flex-col sm:flex-row gap-4">
 
                 <div className=" flex flex-row items-center justify-center w-1/2 px-4">

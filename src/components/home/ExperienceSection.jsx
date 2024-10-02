@@ -3,7 +3,7 @@ import React from 'react'
 const ExperienceSection = () => {
   return (
 
-    <div className="border flex flex-col sm:flex-row items-start justify-center gap-4 btn_outline_blue_sky_blue rounded-[12px] py-8">
+    <div className="border-2 flex flex-col sm:flex-row items-start justify-center gap-4 btn_outline_blue_sky_blue rounded-[12px] py-8">
 
         <div className=" flex flex-col items-center justify-center w-[20%] px-4 gap-3 font-semibold">
 
